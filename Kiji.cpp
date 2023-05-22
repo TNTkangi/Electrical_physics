@@ -41,8 +41,9 @@ class Kiji {
                    cout << "Foce 2: ";
                    cin >> N[6];
                 N[7]=(pow(N[5],2)) + (pow(N[6],2));
-                sqrt (N[7]);
-                cout << N[7] << endl;
+                N[8]= sqrt (N[7]);
+                    cout << N[8] << endl;
+                break;
                 default : 
                     cout << "Please new input number" << endl;
                     
