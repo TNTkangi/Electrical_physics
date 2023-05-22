@@ -13,8 +13,8 @@ class Kiji {
                     cout << "\n_______________________________\n";
                     cout << "Force of electron Input 2" << endl;
                     cout << "\n_______________________________\n";
-                    cout << "Sum of force Input " << endl;
-                    cout << "\n_______________________________\n";
+                    cout << "Sum of force at right angles Input 3" << endl;
+                    cout << "\n_____________________________________\n";
                     cout << "Input Function number: " ;
                     cin >> T;
                     cout << "\n_______________________________\n";
