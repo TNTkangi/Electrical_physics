@@ -16,6 +16,8 @@ class Kiji {
                     cout << "Sum of force at right angles Input 3" << endl;
                     cout << "\n_____________________________________\n";
                     cout << "Eletric field (F/Q) Input 4" << endl;
+                    cout << "\n_____________________________________\n";\
+                    cout << "Eletric field (KQ/R^2) Input 5" << endl;
                     cout << "\n_____________________________________\n";
                     cout << "Input Function number: " ;
                     cin >> T;
@@ -53,6 +55,14 @@ class Kiji {
                     cin >> N[10];
                     cout << "Electric field: " << N[9] / N[10] << " N/C" << endl;
                 break;
+                case 5 : 
+                    cout << "Input r(m): ";
+                    cin >> N[11];
+                    cout << "Input Q: ";
+                    cin >> N[12];
+                N[13]=pow(N[11],2);
+                    cout << "Electric field: " << K * N[12] /N[13] << " N/C" << endl;
+                    break;
                 default : 
                     cout << "Please new input number" << endl;
                     
