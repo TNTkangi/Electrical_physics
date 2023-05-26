@@ -21,6 +21,8 @@ class Kiji {
                     cout << "\n_____________________________________\n";
                     cout << "Eletric field (V/D) Input 6" << endl;
                     cout << "\n_____________________________________\n";
+                    cout << "Electric potential difference (Ep/q) Input 7" << endl;
+                    cout << "\n_____________________________________\n";
                     cout << "Input Function number: " ;
                     cin >> T;
                     cout << "\n_______________________________\n";
@@ -71,6 +73,13 @@ class Kiji {
                     cout << "Input D(m): ";
                     cin >> N[15];
                     cout << "Electric field: " << N[14] / N[15] << " V/m" << endl;
+                break;
+                case 7 :
+                    cout << "Input Gravitational Potential Energy: ";
+                    cin >> N[16];
+                    cout << "Input q: ";
+                    cin >> N[17];
+                    cout << "Electric potential difference" << N[16] / N[17] << " V" << endl;
                 break;
                 default : 
                     cout << "Please new input number" << endl;
