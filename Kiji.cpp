@@ -8,21 +8,23 @@ class Kiji {
          double E = 1.60e-19;
          int T;
          double K = 9e9;
-         double  N[20];
+         double  N[30];
                     cout << "Electron count Input 1" << endl;
-                    cout << "\n_______________________________\n";
+                    cout << "_______________________________\n";
                     cout << "Force of electron Input 2" << endl;
-                    cout << "\n_______________________________\n";
+                    cout << "_______________________________\n";
                     cout << "Sum of force at right angles Input 3" << endl;
-                    cout << "\n_____________________________________\n";
+                    cout << "_____________________________________\n";
                     cout << "Eletric field (F/Q) Input 4" << endl;
-                    cout << "\n_____________________________________\n";
+                    cout << "_____________________________________\n";
                     cout << "Eletric field (KQ/R^2) Input 5" << endl;
-                    cout << "\n_____________________________________\n";
+                    cout << "_____________________________________\n";
                     cout << "Eletric field (V/D) Input 6" << endl;
-                    cout << "\n_____________________________________\n";
+                    cout << "_____________________________________\n";
                     cout << "Electric potential difference (Ep/q) Input 7" << endl;
-                    cout << "\n_____________________________________\n";
+                    cout << "_____________________________________\n"; 
+                    cout << "Gravitational Potential Energy (qxV) Input 8" << endl;
+                    cout << "_____________________________________\n";
                     cout << "Input Function number: " ;
                     cin >> T;
                     cout << "\n_______________________________\n";
@@ -79,7 +81,14 @@ class Kiji {
                     cin >> N[16];
                     cout << "Input q: ";
                     cin >> N[17];
-                    cout << "Electric potential difference" << N[16] / N[17] << " V" << endl;
+                    cout << "Electric potential difference: " << N[16] / N[17] << " V" << endl;
+                break;
+                case 8 :
+                    cout << "Gravitational Potential Energy: ";
+                    cin >> N[18];
+                    cout << "Input q: ";
+                    cin >> N[19];
+                    cout << "Electric potential difference: " << N[19] * N[18] << " J" << endl;
                 break;
                 default : 
                     cout << "Please new input number" << endl;
