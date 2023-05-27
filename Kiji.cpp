@@ -29,6 +29,8 @@ class Kiji {
                     cout << "_____________________________________\n";
                     cout << "Gravitational Potential Energy (Kq/r) Input 10" << endl;
                     cout << "_____________________________________\n";
+                    cout << "Gravitational Potential Energy (KQ/a) Input 11" << endl;
+                    cout << "_____________________________________\n";
                     cout << "Input Function number: " ;
                     cin >> T;
                     cout << "\n_______________________________\n";
@@ -107,6 +109,13 @@ class Kiji {
                     cout << "Input r(m): ";
                     cin >> N[23];
                     cout << "Gravitational Potential Energy: " << K * N[22] / N[23] << " V" << endl;
+                break;
+                case 11 : 
+                    cout << "Input Q: ";
+                    cin >> N[24];
+                    cout << "Input a(m): ";
+                    cin >> N[25];
+                    cout << "Gravitational Potential Energy: " << K * N[24] / N[25] << " V" << endl;
                 break;
                 default : 
                     cout << "Please new input number" << endl;
