@@ -8,7 +8,7 @@ class Kiji {
          double E = 1.60e-19;
          int T;
          double K = 9e9;
-         double  N[30];
+         double  N[40];
                     cout << "Electron count Input 1" << endl;
                     cout << "_______________________________\n";
                     cout << "Force of electron Input 2" << endl;
@@ -30,6 +30,10 @@ class Kiji {
                     cout << "Gravitational Potential Energy (Kq/r) Input 10" << endl;
                     cout << "_____________________________________\n";
                     cout << "Gravitational Potential Energy (KQ/a) Input 11" << endl;
+                    cout << "_____________________________________\n";
+                    cout << "Capacitor version 1 Input 12" << endl;
+                    cout << "_____________________________________\n";
+                    cout << "capacitor version 2 Input 13" << endl;
                     cout << "_____________________________________\n";
                     cout << "Input Function number: " ;
                     cin >> T;
@@ -116,6 +120,18 @@ class Kiji {
                     cout << "Input a(m): ";
                     cin >> N[25];
                     cout << "Gravitational Potential Energy: " << K * N[24] / N[25] << " V" << endl;
+                break;
+                case 12 :
+                    cout << "Input Diameter: "; 
+                    cin >> N[26];
+                    cout << "Capacitor: " << N[26] / K << " F" << endl;
+                break;
+                case 13 :
+                    cout << "Input Q: ";
+                    cin >> N[27];
+                    cout << "Input V: ";
+                    cin >> N[28];
+                    cout << "Capacitor: " << N[27] / N[28] << " F" << endl;
                 break;
                 default : 
                     cout << "Please new input number" << endl;
